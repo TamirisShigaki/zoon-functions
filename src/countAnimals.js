@@ -16,8 +16,6 @@ function countAnimals(animal) {
   return foundSpecie.residents.filter((resident) => resident.sex === animal.sex).length;
 }
 
-console.log(countAnimals({ specie: 'bears', sex: 'female' }));
-
 module.exports = countAnimals;
 
 //! Linha 12 a 16 com ajuda do Roberval (monitoria)
