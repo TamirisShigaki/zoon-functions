@@ -9,5 +9,4 @@ function getEmployeeByName(employeeName) {
     || name.lastName === employeeName);
 }
 
-console.log(getEmployeeByName('Wishart'));
 module.exports = getEmployeeByName;

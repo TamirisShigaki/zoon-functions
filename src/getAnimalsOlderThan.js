@@ -6,6 +6,4 @@ function getAnimalsOlderThan(animal, age) {
   return specie.residents.every((resident) => resident.age >= age);
 }
 
-console.log(getAnimalsOlderThan('otters', 7));
-
 module.exports = getAnimalsOlderThan;
