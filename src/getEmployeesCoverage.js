@@ -27,13 +27,13 @@ function verificaEmployee(employee) {
 }
 
 function getEmployeesCoverage(employee) {
-  if (!employee) {
+  if (employee === undefined) {
     return data.employees.map((empregado) => montandoObject(empregado));
   }
 
   const employeeEncontrado = verificaEmployee(employee);
 
-  if (!employeeEncontrado) {
+  if (employeeEncontrado === undefined) {
     throw new Error('Informações inválidas');
   }
   const resposta = montandoObject(employeeEncontrado);
