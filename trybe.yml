@@ -1,8 +1,0 @@
-ignore_files:
-  - test/
-  - data/
-  - .eslintrc.json
-  - .editorconfig
-  - .eslintignore
-  - README.md
-  - .gitignore
